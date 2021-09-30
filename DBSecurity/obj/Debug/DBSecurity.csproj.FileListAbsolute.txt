@@ -1,0 +1,12 @@
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.frmBruteForce.resources
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.Properties.Resources.resources
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.csproj.GenerateResource.cache
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.csproj.CoreCompileInputs.cache
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\bin\Debug\DBSecurity.exe.config
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\bin\Debug\DBSecurity.exe
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\bin\Debug\DBSecurity.pdb
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.exe
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.pdb
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\bin\Debug\pass.txt
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.csproj.AssemblyReference.cache
+C:\Users\kacan\source\repos\DBSecurity\DBSecurity\obj\Debug\DBSecurity.frmSuggestion.resources

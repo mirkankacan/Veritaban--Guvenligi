@@ -1,0 +1,17 @@
+CREATE TRIGGER USER_CREATE_CONTROL
+ON ALL SERVER
+FOR CREATE_LOGIN
+AS
+BEGIN
+DECLARE @MSG AS VARCHAR(1000)
+SET @MSG=EVENTDATA().value('(/EVENT_INSTANCE/TSQLCommand/CommandText)[1]','nvarchar(1000)');
+SET @MSG=@MSG+' IP:'+CONVERT(VARCHAR,CONNECTIONPROPERTY('client_net_address'));
+SET @MSG=@MSG+' APPLICATION NAME:'+PROGRAM_NAME();
+SET @MSG=@MSG+' USERNAME:'+SUSER_NAME();
+
+EXEC msdb.dbo.sp_send_dbmail
+@profile_name='SQLMAIL',
+@recipients='sqlservermirk034@gmail.com',
+@body=@MSG,
+@subject='NEW USER ADDED TO SQL SERVER';
+END
